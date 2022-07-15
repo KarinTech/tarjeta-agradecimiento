@@ -1,0 +1,79 @@
+.header    {
+    box-sizing: border-box;
+    border: 4px solid black; 
+    width:2600px;
+    height:950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(152, 108, 49);
+    color:rgb(84, 1, 66);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:5%;
+    font-size: 2.5vh;
+}
+
+h1 h2 h3 {
+    
+    color:rgb(84, 1, 66);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+
+}
+
+.bloque-container img {
+    flex-direction: row;
+    max-width: 200px;
+    max-height: 200px;
+    padding:2%;
+}
+span {
+    color:rgb(100, 71, 126);
+
+}
+
+ 
+.bloque-photos {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 400px;;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #7ca9f1, #53b7f9, #00c4fa, #00d6e9, #00e2b5, #6be66d, #d1df11);
+    border: 2px dotted rgb(120, 94, 28);
+    font-size: 2vh;
+    margin:5%;
+
+}
+
+.bloque-photos img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.agradecimientos {
+    box-sizing: border-box;
+    width: 2400px;
+    border: 2px solid goldenrod;
+    background-color: #64dbd9;
+    display: flex;
+    align-content: center;
+    margin-left:15%;
+    font-size: 4vh;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 2;
+
+
+}
+
+.agradecimientos img {
+    max-width: 100px;
+}
+
+.final {
+    font-size: 4vh;
+}
+.final form {
+
+}
